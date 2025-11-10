@@ -284,20 +284,3 @@ Tuning tips:
 * If intersections are missed, lower the intersection detection threshold or re-check sensor calibration.
 
 ---
-
-## References & Credits
-
-This README and the code were created using the project implementation described in the attached documentation and reference sources. Key references include the Pololu QTR documentation, ESP32Encoder library, QuickPID, and several community resources and GitHub repositories on line-following maze robots.
-
----
-
-## License
-
-Choose the license you prefer (MIT recommended for open-source robotics projects). Add a `LICENSE` file to the repo if sharing.
-
----
-
-If you'd like, I can:
-
-* Generate a downloadable `README.md` file for you.
-* Create the full code files (`Pins.h`, `Sensors.cpp`, etc.) in the canvas.
