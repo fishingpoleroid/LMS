@@ -27,6 +27,10 @@ void PathOptimization::optimize(String &path) {
         path.replace("SBS", "B");
         // Rule 6: LBL -> S
         path.replace("LBL", "S");
+        // Rule 7: RBR -> S
+        path.replace("RBR", "S");
+        // Rule 8: SBR -> L
+        path.replace("SBR", "L");
 
         if (path!= originalPath) {
             changesMade = true; // If the string changed, loop again
